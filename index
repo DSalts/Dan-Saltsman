@@ -1,14 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Dan Saltsman</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DAN SALTSMAN</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+      color: #000080;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+
+    .coming-soon {
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      color: #333;
+      margin-bottom: 35px;
+    }
+
+    hr {
+      width: 70%;
+      max-width: 500px;
+      margin: 25px auto;
+      border: none;
+      border-top: 1px solid #999;
+    }
+
+    h2 {
+      font-size: clamp(1.4rem, 4vw, 2.3rem);
+      font-weight: normal;
+      margin: 14px 0;
+      color: #000080;
+    }
+
+    .phone {
+      margin-top: 35px;
+      font-size: clamp(1.1rem, 3vw, 1.8rem);
+      color: #000;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px 10px;
+      }
+
+      hr {
+        width: 90%;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>Dan Saltsman</h1>
+  <div class="container">
 
-<p>Website coming soon.</p>
+    <h1>DAN SALTSMAN</h1>
+
+    <div class="coming-soon">
+      Website Coming Soon
+    </div>
+
+    <hr>
+
+    <h2>Saltsman Financial</h2>
+    <h2>Saltman Industries</h2>
+
+    <div class="phone">
+      (248) 388-1565
+    </div>
+
+    <hr>
+
+  </div>
 
 </body>
+
 </html>
