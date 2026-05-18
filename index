@@ -2,80 +2,79 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>DAN SALTSMAN</title>
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
 
     body {
       font-family: "Times New Roman", serif;
-      background-color: #ffffff;
+      background-color: white;
       color: #000080;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      min-height: 100vh;
-      padding: 20px;
       text-align: center;
+      margin-top: 100px;
     }
 
     .container {
-      width: 100%;
-      max-width: 900px;
-      padding: 40px 20px;
+      width: 80%;
+      margin: auto;
+      position: relative;
     }
 
     h1 {
-      font-size: clamp(2.5rem, 6vw, 5rem);
-      letter-spacing: 3px;
+      font-size: 48px;
       margin-bottom: 15px;
+      letter-spacing: 2px;
     }
 
     .coming-soon {
-      font-size: clamp(1.2rem, 3vw, 2rem);
+      font-size: 28px;
+      margin-bottom: 30px;
       color: #333;
-      margin-bottom: 35px;
-    }
-
-    hr {
-      width: 70%;
-      max-width: 500px;
-      margin: 25px auto;
-      border: none;
-      border-top: 1px solid #999;
     }
 
     h2 {
-      font-size: clamp(1.4rem, 4vw, 2.3rem);
       font-weight: normal;
-      margin: 14px 0;
       color: #000080;
+      margin: 10px 0;
+      font-size: 30px;
     }
 
     .phone {
-      margin-top: 35px;
-      font-size: clamp(1.1rem, 3vw, 1.8rem);
+      margin-top: 30px;
+      font-size: 24px;
       color: #000;
     }
 
-    @media (max-width: 600px) {
-      .container {
-        padding: 20px 10px;
-      }
-
-      hr {
-        width: 90%;
-      }
+    hr {
+      width: 60%;
+      margin: 25px auto;
     }
+
+    .left-column {
+      position: absolute;
+      top: 430px;
+      left: 40px;
+      width: 220px;
+      text-align: left;
+    }
+
+    .services-title {
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: underline;
+      color: #000080;
+      margin-bottom: 4px;
+    }
+
+    .service-item {
+      font-size: 18px;
+      color: #000;
+      margin-bottom: 2px;
+    }
+
   </style>
 </head>
 
@@ -92,13 +91,34 @@
     <hr>
 
     <h2>Saltsman Financial</h2>
-    <h2>Saltman Industries</h2>
+
+    <h2>Saltsman Industries</h2>
 
     <div class="phone">
       (248) 388-1565
     </div>
 
     <hr>
+
+    <div class="left-column">
+
+      <div class="services-title">
+        Services
+      </div>
+
+      <div class="service-item">
+        - Life Insurance
+      </div>
+
+      <div class="service-item">
+        - Annuities
+      </div>
+
+      <div class="service-item">
+        - Physical Gold & Silver
+      </div>
+
+    </div>
 
   </div>
 
