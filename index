@@ -24,27 +24,27 @@
     }
 
     h1 {
-      font-size: 48px;
-      margin-bottom: 15px;
+      font-size: 24px;
+      margin-bottom: 10px;
       letter-spacing: 2px;
     }
 
     .coming-soon {
-      font-size: 28px;
-      margin-bottom: 30px;
+      font-size: 20px;
+      margin-bottom: 4px;
       color: #333;
     }
 
     h2 {
       font-weight: normal;
       color: #000080;
-      margin: 10px 0;
-      font-size: 30px;
+      margin: 5px 0;
+      font-size: 14px;
     }
 
     .phone {
-      margin-top: 30px;
-      font-size: 24px;
+      margin-top: 8px;
+      font-size: 14px;
       color: #000;
     }
 
@@ -55,14 +55,14 @@
 
     .left-column {
       position: absolute;
-      top: 430px;
-      left: 40px;
+      top: 220px;
+      left: 260px;
       width: 220px;
       text-align: left;
     }
 
     .services-title {
-      font-size: 22px;
+      font-size: 14px;
       font-weight: bold;
       text-decoration: underline;
       color: #000080;
@@ -70,7 +70,7 @@
     }
 
     .service-item {
-      font-size: 18px;
+      font-size: 12px;
       color: #000;
       margin-bottom: 2px;
     }
@@ -103,7 +103,7 @@
     <div class="left-column">
 
       <div class="services-title">
-        Services
+        Insurance & Financial Services
       </div>
 
       <div class="service-item">
@@ -114,10 +114,21 @@
         - Annuities
       </div>
 
-      <div class="service-item">
-        - Physical Gold & Silver
-      </div>
+<div class="service-item" style="margin-bottom: 15px;">
+  - Physical Gold & Silver
+</div>
 
+<div class="service-section">
+
+  <div class="services-title">
+    <strong><u>Construction & Industrial Services</u></strong>
+  </div>
+
+  <div class="service-item">
+    - Manufacturer Representation
+  </div>
+
+</div>
     </div>
 
   </div>
